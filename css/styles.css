@@ -1,0 +1,144 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  background-color: hsl(0, 0%, 98%);
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  color: hsl(229, 6%, 66%);
+    margin: 15px 15px ;
+    text-align: center;
+}
+h1{
+  color: hsl(234, 12%, 34%);
+}
+h3{
+  margin: 15px 15px ;
+  color: hsl(234, 12%, 34%);
+}
+.first-section p{
+  margin: 2rem 30% ;
+}
+.first-section{
+  margin: 2rem 0 3rem;;
+  text-align: center;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.up, .down, .left, .right {
+  box-shadow: 0 10px 10px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.card p{
+  float: left;
+}
+.center{
+  max-width:30%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.up{
+  border-top: 3px solid hsl(0, 78%, 62%);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 14rem;
+  margin-bottom: 1rem;
+}
+.down{
+    border-top: 3px solid hsl(34, 97%, 64%);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 14rem;
+    margin-top: 1rem;
+}
+
+.left{
+  border-top: 3px solid hsl(180, 62%, 55%);
+  max-width: 30%;
+  height: 14rem;
+}
+
+.right{
+    border-top: 3px solid hsl(212, 86%, 64%);
+    max-width: 30%;
+    height: 14rem;
+}
+
+  .calc-img{
+   margin-left: 70%;
+  margin-top: 2rem;
+   margin-bottom: 0;
+}
+.karma-img{
+  margin-left: 70%;
+ margin-top: 1rem;
+  margin-bottom: 0;
+}
+ .team-img{
+   margin-left: 70%;
+  margin-top: 0.5rem;
+   margin-bottom: 0;
+ }
+ .super-img{
+   margin-left: 70%;
+  margin-top: 2.5rem;
+   margin-bottom: 0;
+ }
+
+@media (max-width: 768px){
+
+body{
+  padding:0;
+  margin: auto;
+}
+
+.first-section{
+  margin:0;
+}
+.first-section p{
+  margin:auto;
+}
+
+.content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding:2rem;
+  }
+
+
+.up, .down, .left, .right{
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom:1.5rem;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  margin: 0.5rem 0;
+}
+
+.team-img, .super-img, .karma-img, .calc-img{
+  margin-left: 60%;
+  margin-bottom: 2rem;
+}
+
+}
